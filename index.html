@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Limelight Calendar Assignment - Chris Davies</title>
+
+    <link rel="shortcut icon" href="https://limelightplatform.com/wp-content/uploads/2016/06/cropped-App-icon-1.jpg" type="image/vnd.microsoft.icon">
+    <!-- Local jquery, moment and fullcalendar js and css files -->
+    <script src='lib/jquery-3.3.1.min.js'></script>
+    <script src='lib/moment.js'></script>
+    <script src='fullcalendar/fullcalendar.js'></script>
+    <script src='lib/myscripts.js'></script>
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+    <!-- CDNs for Bootstrap and FontAwesome to make the UI look nicer -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        <!-- Local style to allow modal fade in -->
+    <link rel='stylesheet' href='lib/styles.css' />
+    <!-- <script>
+        Put external script back here if it doesn't work
+    </script> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Limelight Learning Calendar</h1>
+            <p>Chris Davies</p>
+        </div>
+        <!-- Our calendar -->
+        <div id='calendar'></div>
+        <!-- Our Modal, hidden from view until user clicks on an event -->
+        <div id="fullCalModal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 id="modalTitle" class="modal-title"></h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">×</span>
+                            <span class="sr-only">close</span>
+                        </button>
+                    </div>
+                    <div id="modalDescription" class="modal-body"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

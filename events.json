@@ -1,0 +1,65 @@
+[
+  "0",
+  {
+    "title": "Lunch and Learn - Vue.js",
+    "id": "100",
+    "start": "2018-03-16 12:00:00",
+    "end": "2018-03-16 13:00:00",
+    "color": "grey",
+      "textColor": "black",
+      "description" : "Getting started with Vue.js - An incrementally adoptable ecosystem that scales between a library and a full-featured framework.",
+      "tags" : ["Learning"]
+  },
+    "1",
+    {
+      "title": "Dragonball Fighter Z Tournament",
+      "id": "101",
+      "start": "2018-03-16 17:00:00",
+      "end": "2018-03-16 20:30:00",
+      "color": "pink",
+        "textColor": "black",
+        "description" : "Time to see who can win it all",
+        "tags" : "Videogames"
+    },
+    "2",
+    {
+        
+      "title": "St Patrick's Day Party",
+      "id": "102",
+      "start": "2018-03-17 20:00:00",
+      "end": "2018-03-18 02:00:00",
+      "color": "green",
+        "textColor": "black",
+        "description" : "Religious Holiday",
+        "tags" : "Social"
+    },
+    "3",
+    {
+      "title": "Business Brunch",
+      "id": "103",
+      "start": "2018-03-18 10:00:00",
+      "end": "2018-03-18 11:30:00",
+      "color": "grey",
+        "textColor": "black",
+        "description" : "Holiday Recovery and Discussion",
+        "tags" : "Meetings"
+    },
+    "4",
+    {
+      "title": "Libraries as Media Spaces: Technology, Debate, Equity",
+      "id": "104",
+      "start": "2018-03-20 14:00:00",
+      "end": "2018-03-20 15:00:00",
+      "description" : "A modern and cutting edge view of what libraries do and how they serve their communities",
+      "tags" : "Learning"
+    },
+    "5",
+    {
+      "title": "React.js Review",
+      "id": "105",
+      "start": "2018-03-22 10:00:00",
+      "end": "2018-03-22 11:30:00",
+      "description" : "Understanding how we can leverage React.js for organizational success",
+      "tags" : "Learning"
+    }
+  ]

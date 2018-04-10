@@ -1,0 +1,4 @@
+/* Allows the modal to fade in when we click on an event */
+.modal-backdrop {
+    opacity: 0.5;
+}
